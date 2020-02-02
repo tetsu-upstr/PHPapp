@@ -1,0 +1,58 @@
+html, body, h1, h2, h3, h4, ul, ol, dl, li, dt, dd, p, div, span, img, a, table, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  letter-spacing: 0.5px;
+  font-weight: normal;
+  font-size: 100%;
+  font-family: 'Andale Mono','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+  vertical-align: baseline;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  line-height: 1.8;
+  word-wrap: break-word;
+  color: #4C4C4C;
+  text-decoration: none;
+}
+
+.wrap {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.header__title {
+  padding: 10px;
+}
+
+.input-form {
+  display: inline-block;
+  text-align: left;
+  padding: 20px;
+}
+
+.header {
+  height: 60px;
+  background-color: #00AEEB;
+  &__title {
+    color: #fff;
+  }
+}
+
+input {
+  background-color: #F6F6F6;
+  border-radius: 5px;
+}
+
+.btn {
+  background-color: #00AEEB;
+  color: #fff;
+  border: none;
+  padding: 5px 20px;
+  margin-top: 10px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  border-radius: 4px;
+}
