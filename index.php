@@ -1,3 +1,10 @@
+<?php 
+session_start();
+require('db_connect.php');
+require('function.php'); 
+
+?>
+
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -5,32 +12,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="css/main.css">
-  <title>Document</title>
+  <title>register</title>
 </head>
 
 <body>
 <div class="wrap">
   <header>
-    <div class="header">
-      <h2 class="header__title">会員登録</h2>
-    </div>
+      <h2 >会員画面</h2>
   </header>
+  <p>こんにちは<?php print h($user['name']); ?>さん<span><a href="logout.php">ログアウトする</a></span></p>
 
-  <div class="input-form">
-    <p class="input__title">会員情報を入力してください。</p>
-    <form action="" method="post">
-      <dl>
-        <dt><label class="input__label" for="email">メールアドレス</label></dt>
-        <dd>
-         <input type="email" name="email" size="35" maxlength="255" />
-        </dd>
-         <dt><label class="input__label" for="password">パスワード</label></dt>
-        <dd>
-          <input type="password" name="password" size="35" maxlength="20" />
-        </dd>
-      </dl>
-      <div><input class="btn" type="submit" value="入力内容を確認する" /></div>
-    </form>
+  <nav>
+    <ul>
+      <li>見積書</li>
+      <li>商品</li>
+    </ul>
+
+  </nav>
+  
+  <div>
+    
+  
+ 
+   
   </div>
 </div>
   

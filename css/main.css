@@ -22,28 +22,30 @@ html, body, h1, h2, h3, h4, ul, ol, dl, li, dt, dd, p, div, span, img, a, table,
   margin: 0 auto;
 }
 
-.header__title {
-  padding: 10px;
-}
-
-.input-form {
+.register {
   display: inline-block;
   text-align: left;
   padding: 20px;
 }
 
-.header {
+header {
   height: 60px;
   background-color: #00AEEB;
 }
 
-.header__title {
+header h2 {
   color: #fff;
+  padding: 10px;
 }
 
 input {
   background-color: #F6F6F6;
   border-radius: 5px;
+}
+
+.error {
+  font-size: 90%;
+  color: #BB1850;
 }
 
 .btn {
